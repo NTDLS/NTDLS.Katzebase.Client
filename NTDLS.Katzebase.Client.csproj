@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <Company>NetworkDLS</Company>
     <Copyright>Copyright © 2024 NetworkDLS</Copyright>
-    <Version>1.3.12</Version>
+    <Version>1.3.13</Version>
     <Authors>NetworkDLS</Authors>
     <ApplicationIcon>@Art\IconFull.ico</ApplicationIcon>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -26,7 +26,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>database;nosql;rdbms;webapi;unstructured-data</PackageTags>
     <PackageReleaseNotes>
-      Nuget update to handle exception passthrough.
+      Nuget update to handle exception passthrough, size formatting.
     </PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
@@ -41,7 +41,7 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="NTDLS.Helpers" Version="1.2.3" />
+    <PackageReference Include="NTDLS.Helpers" Version="1.2.4" />
     <PackageReference Include="NTDLS.ReliableMessaging" Version="1.8.7" />
   </ItemGroup>
 
